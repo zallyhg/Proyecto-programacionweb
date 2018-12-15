@@ -1,0 +1,223 @@
+body{
+  width: 1440px;
+  height: 841px;
+  font-family: Lato;
+  background-color: #ffffff;
+  background-image: url(../img/museo.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size:  596px 841px;
+}
+
+h1{
+  color: #111111;
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  margin: 0px;
+  padding-left: 30px;
+  padding-right: 30%;
+}
+
+h2{
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  margin-bottom: 50px;
+  color: #909090;	
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+header{
+ width: 1440px;
+  display: inline-block;
+  margin: 0px;
+}
+header nav{
+display: inline-block;
+ margin: 20px;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: : 50px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: #111111;
+}
+header button{
+  margin-left: 600px;
+  background-color: transparent;
+  border-color: #111111;
+  border-radius: 8px;
+  font-family: Lora;
+  font-size: 1em;
+  padding: 5px;
+}
+header a{
+  color:#171717;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.articledescr{
+  padding: 20px;
+  background-color: white;
+  border-top: none;
+
+}
+.articleMostrador{
+  background-color: #fff9a8;
+  border-radius: 8px;
+  border-color:gray ;
+  border-style: solid;
+  border-width: 0.5px;
+  color: #909090;
+  display: inline-block;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin: 10px;
+
+}
+.articleMostrador img{
+  width: 103px;
+  height: 44px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+
+}
+.articletxt{
+  font-family: Lato;
+  border-radius: 8px;
+  border-color:gray ;
+  border-style: solid;
+  border-width: 0.5px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 20px;
+  background-color: white;
+
+
+}
+.articletxt button{
+  background-color: transparent;
+  border-color: #111111;
+  border-radius: 8px;
+  font-family: Lora;
+  font-size: 1em;
+  margin: 5px;
+  padding: 5px;
+}
+.seccionPrincipal {
+  margin-right: 50%
+}
+.seccionVitrinas{
+  margin-right: 50%
+}
+.seccionMostrador{
+  margin-right: 50%
+}
+.seccionMyB{
+  margin-right: 50%
+}
+.txtNombre{
+  font-family: Lato;
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #111111;
+  padding-left: 10px;
+}
+.vitrina{
+  display: inline-block;
+  width: 201px;
+  height: 123px;
+  border-radius: 8px;
+  background-color: #fff9a8;
+  margin: 10px;
+  border-color:gray ;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+.vitrina img{
+  padding: 40px;
+  width: 103px;
+  height: 44px;
+}
+
+.vitrinaTxt{
+  background-color: white;
+  padding: 0px;
+
+}
+
+
+/*
+.imgMuseo{
+  width: 596px;
+  height: 841px;
+  
+}
+
+
+.vitrinaBco {
+  width: 201px;
+  height: 190px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.vitrinaAma {
+  width: 201px;
+  height: 123px;
+  border-radius: 8px;
+  background-color: #fff9a8;
+}
+
+.imgVitrina {
+  width: 103px;
+  height: 44px;
+}
+.Vitrina-V1 {
+  width: 82px;
+  height: 20px;
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #111111;
+}
+
+.-mostradores {
+  width: 105px;
+  height: 19px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #909090;
+}
+
+fff9a8
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;

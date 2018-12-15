@@ -1,0 +1,21 @@
+{
+	"name": "proyecto",
+	"version": "1.0.0",
+	"description": "Proyecto monedas y billetes",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "electron ."
+	},
+	"author": "Quetzally Meza",
+	"license": "ISC",
+	"devDependencies": {
+		"asar": "^0.14.5",
+		"electron": "^3.0.10",
+		"electron-packager": "^12.2.0",
+		"electron-require": "^0.3.0"
+	},
+	"dependencies": {
+		"jquery": "^3.3.1"
+	}
+}
